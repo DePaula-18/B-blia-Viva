@@ -19,4 +19,6 @@ jobs:
           java-version: '17'
 
       - name: Build Debug APK
-        run: ./gradlew assembleDebug
+  run: bash gradlew assembleDebug
+
+
